@@ -23,7 +23,7 @@ object Group: LongIdTable() {
 object User: LongIdTable() {
     val login = varchar("login", 100).index(isUnique = true)
     val hashPassword = varchar("hashPassword", 100)
-    // List<Period>
+    //List<Period>
     val periods = text("periods")
 }
 
