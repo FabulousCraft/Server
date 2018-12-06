@@ -1,0 +1,8 @@
+GET http://localhost:8080/add_user/bob/123
+
+###
+GET http://localhost:8080/get_pics
+Authorization: Basic bob 123
+
+###
+
